@@ -35,3 +35,21 @@ java SimpleQuizGame
 ```
 The program will then execute in your terminal, and you can begin the quiz.
 
+## Application Dir Structure
+![alt text](output/dir-str.png)
+
+## Output
+Question 1:
+![alt text](output/Q1.png)
+
+Question 2:
+![alt text](output/Q2.png)
+
+Question 3:
+![alt text](output/Q3.png)
+
+Question 4:
+![alt text](output/Q4.png)
+
+Question 5:
+![alt text](output/Q5.png)
