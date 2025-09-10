@@ -30,7 +30,7 @@ public class SimpleQuizGame {
             {"A. Ag", "B. Au", "C. Fe", "D. Cu"}
         };
         
-        char[] correctAnswers = {'C', 'B', 'D', 'B', 'B'};
+        char[] correctAnswers = {'D', 'B', 'D', 'B', 'B'};
         
         // Use a for loop to iterate through each question.
         for (int i = 0; i < questions.length; i++) {
