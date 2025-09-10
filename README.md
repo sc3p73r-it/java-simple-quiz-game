@@ -68,6 +68,11 @@ CMD ["java", "SimpleQuizGame"]
 docker build -t simple-quiz-game-java:latest .
 ```
 
+## Pull Docker Image
+```
+docker pull sc3p73r/simple-quiz-game-java:latest
+```
+
 ## Running the Docker Container
 ```
 docker run -it --name java-app simple-quiz-game-java:latest
