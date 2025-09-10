@@ -53,3 +53,22 @@ Question 4:
 
 Question 5:
 ![alt text](output/Q5.png)
+
+## Updated Dockerfile
+```
+FROM openjdk:17-slim
+WORKDIR /app
+COPY . .
+CMD ["java", "SimpleQuizGame"]
+
+```
+
+## Build Dockerfile
+```
+docker build -t simple-quiz-game-java:latest .
+```
+
+## Running the Docker Container
+```
+docker run -it --name java-app simple-quiz-game-java:latest
+```
