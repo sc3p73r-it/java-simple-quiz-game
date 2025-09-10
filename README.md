@@ -63,12 +63,12 @@ CMD ["java", "SimpleQuizGame"]
 
 ```
 
-## Build Dockerfile
+## Build Dockerfile (Manual Build)
 ```
 docker build -t simple-quiz-game-java:latest .
 ```
 
-## Pull Docker Image
+## Pull Docker Image (Ready To Use)
 ```
 docker pull sc3p73r/simple-quiz-game-java:latest
 ```
